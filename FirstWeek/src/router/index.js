@@ -17,8 +17,18 @@ export default new Router({
       component: mainPage
     },
     {
+      path: '/CompetitionTeacherHomepage',
+      name: 'CompetitionTeacherHomepage',
+      component: CompetitionTeacherHomepage
+    },
+    {
+      path: '/AdminTeacherManagement',
+      name: 'AdminTeacherManagement',
+      component: AdminTeacherManagement
+    },
+    {
       path: '*',
       redirect: '/enter'
-    }
+    },
   ]
 })
