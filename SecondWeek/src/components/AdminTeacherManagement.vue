@@ -61,17 +61,17 @@ http://localhost:8080/#/AdminTeacherManagement#
             size="small"
             class="btn"
             @click="deleted"
-          ><img :src="img1"></img> 批量删除</el-button>
+          ><img :src="img1"/> 批量删除</el-button>
           <el-button
             size="small"
             class="btn"
             @click="imported"
-          ><img :src="img2"></img> 批量导入</el-button>
+          ><img :src="img2"/> 批量导入</el-button>
           <el-button
             size="small"
             class="btn"
             @click="downloaded"
-          ><img :src="img3"></img> 下载模板</el-button>
+          ><img :src="img3"/> 下载模板</el-button>
         </div>
         <div class="g-information">
           <el-table

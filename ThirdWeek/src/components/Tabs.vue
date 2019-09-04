@@ -2,7 +2,12 @@
 <template>
   <div class="g-tab">
     <div class="g-content">
-      <img class="g-img" :src="content.titlePageUrl" alt="图片" onerror="this.src='/static/skillTraining_default_img.jpg'"/>
+      <img
+        class="g-img"
+        :src="content.titlePageUrl"
+        alt="图片"
+        onerror="this.src='/static/skillTraining_default_img.jpg'"
+      />
     </div>
     <div class="g-information">
       <router-link class="name" to="#">{{content.name}}</router-link>
